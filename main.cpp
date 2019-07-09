@@ -33,7 +33,7 @@ int main(int argc, char *argv[])
     pGeneratorSprates->setSprate(BaseSprite::ENEMY, 5);
     pGeneratorSprates->setSprate(BaseSprite::ENEMY, 10);
     pGeneratorSprates->setSprate(BaseSprite::ENEMY, 15);
-    pGeneratorSprates->setSprate(BaseSprite::ENEMY, 20);
+    pGeneratorSprates->setSprate(BaseSprite::ENEMY, 25);
     //pGeneratorSprates->setSprate(BaseSprite::ENEMY, 90);
     QObject::connect(pGeneratorSprates, SIGNAL(sendSprates(BaseSprite*)), pScene, SLOT(addSprite(BaseSprite*)));
     ControlSprite* pControlSprite = new ControlSprite(pResurseImages, "BURAN", 200, 300, 400, 100, 1, 5);
